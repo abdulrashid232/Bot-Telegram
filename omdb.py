@@ -1,9 +1,8 @@
 import os
 import requests
 
-#apis
-Token = "6669992044:AAHUolqcLdT9pFKhsd-KKmga8-KhnXJ1Oi0"
-Movie_api = "3587e463"
+Token = ""
+Movie_api = ""
 class OMDB:
     def __init__(self, api_key):
         # self.youtube_api = os.getenv("youtube_api")
