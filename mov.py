@@ -14,8 +14,8 @@ load_dotenv()
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 
-Token = "6669992044:AAHUolqcLdT9pFKhsd-KKmga8-KhnXJ1Oi0"
-Movie_api = "3587e463"
+Token = ""
+Movie_api = ""
 
 class MovieBot:
     def __init__(self, token, api_key):
@@ -120,7 +120,7 @@ class MovieBot:
     def __del__(self):
         self.connection.close()
 
-def main():
+def main(_):
     token = Token
     api_key = Movie_api
     movie_bot = MovieBot(token, api_key)
